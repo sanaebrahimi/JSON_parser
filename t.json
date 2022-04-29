@@ -1,0 +1,9 @@
+{
+  "class"	: "CS351",
+  "crn"		: "13213 (cs456), 10959 (cs556)",
+  "title"	: "Computer Organization",
+  "semester"	: "Spring",
+  "year"	: 2021,
+  "val"        :[1,2,3]
+}
+

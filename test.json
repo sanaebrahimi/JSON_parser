@@ -1,0 +1,302 @@
+{
+  "class"	: "CS351",
+  "crn"		: "13213 (cs456), 10959 (cs556)",
+  "title"	: "Computer Organization",
+  "semester"	: "Spring",
+  "year"	: 2021,
+
+  "days"	: "MTR",
+  "time"	: "2:00pm - 2:50pm (M), 2:00pm - 3:15pm (T/Th)",
+  "room"	: "A-017",
+  "building"	: "Root Hall",
+
+  "instructor"	: "Steve Baker",
+  "contact"	: "http://cs.indstate.edu/~sbaker/",
+  "email"	: "Steve.Baker@indstate.edu",
+  "office"	: "Root A-140B",
+  "phone"	: "",
+  "officehours"	: "TBD",
+
+  "home"	: "/~sbaker/cs351/",
+  "codeWebPath"	: "~sbaker/cs351/code/",
+  "codeDir"	: "./code",
+
+  "calendar"	: "",
+
+  "announcements": [
+  ],
+  "tests"	: [
+    {"desc": "Mid-term", "date":"Tuesday March 9<sup>th</sup>", "points":100},
+    {"desc": "Final Exam", "date":"Thursday May 6<sup>th</sup> @ 3pm", "points":150}],
+
+  "assignments" : [
+    {
+      "desc": "Assignment #1
+
+Use `handin -C h1` to checkout assignment #1 and read each C file and turn them
+into working programs.  Use the check function to check your work.",
+      "due" : "01-28-2021", "points": "10+"
+    },
+    {
+      "desc": "Assignment #2
+
+Use `handin -C h2` to checkout assignment #2 and read each C or Python file and
+turn them into working programs.",
+      "due" : "02-08-2021", "points": "10+"
+    },
+    {
+      "desc": "Assignment #3
+
+Use `handin -C h3` to checkout assignment #3 and edit the h3.txt file answering
+each of the problems found therein.",
+      "due" : "02-15-2021", "points": "10"
+    },
+    {
+      "desc": "Assignment #4
+
+Use `handin -C h4` to checkout assignment #4 and read the Readme.txt file and
+follow the instructions and make h4.s into a working program.",
+      "due" : "03-01-2021", "points": "10"
+    },
+    {
+      "desc": "Assignment #5
+
+Use `handin -C h5` to checkout assignment #5 and read the Readme.txt file and
+follow the instructions and make h5.s into a working program.",
+      "due" : "03-15-2021", "points": "10"
+    },
+    {
+      "desc": "Assignment #6
+
+Use `handin -C h6` to checkout assignment #6 and read the Readme.txt file and
+follow the instructions and make h6.s into a working program.",
+      "due" : "03-25-2021", "points": "10"
+    },
+    {
+      "desc": "Assignment #7
+
+Use `handin -C h7` to checkout assignment #6 and read the Readme.txt file and
+follow the instructions and make h7.s into a working program.",
+      "due" : "04-05-2021", "points": "10"
+    },
+
+    {"desc" : "...", "due": "...", "points" : "..." }
+  ],
+  
+  "video" : [
+   {
+     "desc": "01-19-2021 - Intro to CS351, Review of number systems, Boolean operations, bitwise operators and common operations.",
+     "url" : "https://web.microsoftstream.com/video/26b12b90-59d1-492b-93b1-ab53b795d58f"
+   },
+   {
+     "desc": "01-21-2021 - C and Python bit examples, Two's compliment, binary addition and subtraction, Half and Full adders, Ripple carry adder",
+     "url" : "https://web.microsoftstream.com/video/7e538664-317f-4c69-8080-067bb7271008"
+   },
+   {
+     "desc": "01-25-2021 - Lab - H1 in C howto",
+     "url" : "https://teams.microsoft.com/_#/mp4/viewer/teams/https:~2F~2Fsycamoresindstate.sharepoint.com~2Fsites~2FCS351Spring2021~2FShared%20Documents~2FGeneral~2FRecordings~2FMeeting%20now-20210125_140153-Meeting%20Recording.mp4?threadId=19:50ce497c1a76436599b9dc82fe7f53e7@thread.tacv2&baseUrl=https:~2F~2Fsycamoresindstate.sharepoint.com~2Fsites~2FCS351Spring2021&fileId=a7c168f9-567f-4025-a6ae-8b87e2ab7547&ctx=files&rootContext=items_view&viewerAction=view"
+   },
+  ],
+  "reading" : [
+    {"desc" : "...", "due": "...", "points" : "..." }
+  ],
+  "extracredit"	: [
+    {"desc" : "...", "due": "...", "points" : "..." }
+  ],
+  "lesson"      : [
+    {
+      "file" : "lesson1", "title" : "Lesson 1",
+      "desc" : "Review of number systems and Boolean logic, Binary operators and basic bit operations, Two's compliment, Adding and subtracting in Binary"
+    },
+    {
+      "file" : "lesson2", "title" : "Lesson 2",
+      "desc" : "Binary multiplication, Conversion of integers <-> ASCII, Memory, Endianness, Data and Address 'Busses'."
+    },
+    {
+      "file" : "lesson3", "title" : "Lesson 3 - The Central Processing Unit (CPU)",
+      "desc" : "Introduction to the CPU, registers, the flag register, assembly instructions and address/values."
+    },
+    {
+      "file" : "lesson4", "title" : "Lesson 4 - Registers, Memory layout, System calls and NASM",
+      "desc" : "Parts of a register, Linux process memory layout, Register usage during system calls and the Netwide Assembler (NASM)"
+    },
+    {
+      "file" : "lesson5", "title" : "Lesson 5 - Machine Language / Instructions (part 1)",
+      "desc" : "Comparing data and jumps, C to Assembly translations"
+    },
+    {
+      "file" : "lesson6", "title" : "Lesson 6 - Machine Language / Instructions (part 2)",
+      "desc" : "Copying data, Looping, Functions and the stack, Arithmetic operations"
+    },
+    {
+      "file" : "lesson7", "title" : "Lesson 7 - Printnum / itoa",
+      "desc" : "Printing a decimal number / conversion of an integer to ASCII."
+    },
+    {
+      "file" : "lesson8", "title" : "Lesson 8 - The hardware stack",
+      "desc" : "Using the stack for temporary local variables."
+    },
+    {
+      "file" : "lesson9", "title" : "Lesson 9 - The C library, The heap, C pointers in assembly",
+      "desc" : "Using the C library from assembly, The C dynamic memory heap allocation functions and C pointers to assembly guide"
+    },
+    {
+      "file" : "c1", "title" : "C Lesson 1 - Data Literals, Comments, Variables and Expressions",
+      "desc" : "Covers data literals, code comments, variables, assignment, expressions and basic operators, and basic input/output (printf and scanf)"
+    },
+    {
+      "file" : "c2", "title" : "C Lesson 2 - Comparisons and Conditional statements",
+      "desc" : "Covers comparison operations, basic Boolean operators, compound statements, the if, if-else and nested if statements."
+    },
+    {
+      "file" : "c3", "title" : "C Lesson 3 - Looping",
+      "desc" : "Covers the `while` and `for` loops and the control statements: `break` and `continue`."
+    },
+    {
+      "file" : "c4", "title" : "C Lesson 4 - Functions",
+      "desc" : "Covers the functions: defining and prototyping, parameters and return values and scope: visibility of functions and variables in functions."
+    },
+    {
+      "file" : "c5", "title" : "C Lesson 5 - Arrays and Strings",
+      "desc" : "Covers basic arrays and strings."
+    },
+    {
+      "file" : "c6", "title" : "C Lesson 6 - 2D Arrays",
+      "desc" : "Covers 2+ dimensional arrays and introduction to pointers."
+    },
+    {
+      "file" : "c7", "title" : "C Lesson 7 - Structured data",
+      "desc" : "Covers structured data (`struct`) and structure constants."
+    },
+  ],
+
+  "links"	: [
+    {
+      "link": "Ben Eater's youtube videos on building a computer from scratch",
+      "url" : "https://www.youtube.com/user/eaterbc"
+    }, {
+      "link": "Atari's Quadrascan Explained - Youtube",
+      "url" : "https://www.youtube.com/watch?v=smStEPSRKBs"
+    }, {
+      "link": "See how a CPU Works - Youtube",
+      "url" : "https://www.youtube.com/watch?v=cNN_tTXABUA"
+    }, {
+      "link": "Unix (Tutorials Point)",
+      "url" : "http://www.tutorialspoint.com/unix/"
+    }, {
+      "link": "C programming (Tutorials Point)",
+      "url" : "https://www.tutorialspoint.com/cprogramming/index.htm"
+    }, {
+      "link": "C by examples (Tutorials Point)",
+      "url" : "https://www.tutorialspoint.com/learn_c_by_examples/index.htm"
+    }, {
+      "link": "The C Standard Library (Tutorials Point)",
+      "url" : "https://www.tutorialspoint.com/c_standard_library/index.htm"
+    }, {
+      "link": "Assembly Programming (Tutorials Point)",
+      "url" : "https://www.tutorialspoint.com/assembly_programming/index.htm"
+    }, {
+      "link": "PC Assembly (PDF Book)",
+      "url" : "https://pacman128.github.io/pcasm/"
+    }, {
+      "link": "NASM documentation",
+      "url" : "http://www.nasm.us/doc/nasmdoc0.html"
+    }, {
+      "link": "X86 Assembly (wikibooks)",
+      "url" : "https://en.wikibooks.org/wiki/X86_Assembly"
+    }, {
+      "link": "X86 and AMD64 instruction reference",
+      "url" : "https://www.felixcloutier.com/x86/"
+    }
+  ],
+
+  "videolinks"	: [
+    {
+      "link": "Setting up your KDE environment.",
+      "url" :"../video/play.php?vid=kde",
+    }, {
+      "link":"Setting up your Windows environment.",
+      "url" :"../video/play.php?vid=windows",
+    }, {
+      "link":"(Dr. Kinne) Logging into the CS server via Windows, Mac and Linux",
+      "url" :"https://www.youtube.com/watch?v=Ulv2ZcbBRBY&list=PLXFP6J47Bp0fe6g5rQV0ka-AKDLdVvZ56&index=2",
+      "desc":"\
+- Programs: putty for Windows, terminal and ssh for Mac, ssh for Linux\
+- Self check: Did you get a username and password for your course?\
+  - Make sure you can connect from your home computer."
+    }, {
+      "link":"(Dr. Kinne) Using the Linux shell 1",
+      "url":"https://www.youtube.com/watch?v=NJOLzS2qgIA&index=3&list=PLXFP6J47Bp0fe6g5rQV0ka-AKDLdVvZ56",
+      "desc":"- Commands: pwd, ls, cd, cp, mv, mkdir, rmdir, ls"
+    }, {
+      "link":"(Dr. Kinne) Transferring files",
+      "url":"https://www.youtube.com/watch?v=2ASSHmz8FiM&index=4&list=PLXFP6J47Bp0fe6g5rQV0ka-AKDLdVvZ56",
+      "desc": "- Programs: FileZilla, or WinSCP, or sftp"
+    }, {
+      "link":"(Dr. Kinne) Text files",
+      "url":"https://www.youtube.com/watch?v=2cFwJWqjiM0&index=5&list=PLXFP6J47Bp0fe6g5rQV0ka-AKDLdVvZ56",
+      "desc":"- Commands: more with spacebar, or less with arrows and q, or pico, or emacs, or vim"
+    }, {
+      "link":"(Dr. Kinne) Using the Linux shell 2",
+      "url":"https://www.youtube.com/watch?v=93RI9nzp8TM&list=PLXFP6J47Bp0fe6g5rQV0ka-AKDLdVvZ56&index=6",
+      "desc":"\
+- Commands: ps, top with q, man, hostname, whoami, finger, clear, grep, wc, tail, head, bc\
+- Short cuts: ., .., ~, TAB\
+- Redirects: <, >\
+- Pipes: |"
+    }
+  ],
+  "prereqs"	: "A grade of C or better in CS 201",
+
+  "textbook"	: "N/A",
+
+  "courseDesc"	: "The catalog description for this course is:\
+\
+  \"This course examines in some detail how a computer works. To prepare for this study,
+    students will learn the basics of binary arithmetic, data representation, along with
+    propositional and predicate logic. The major hardware components of a computer,
+    including processors (CPUs), memory (RAM), storage and other peripheral devices will
+    be examined in some detail. Computer software will also be studied. The process of
+    program translation and execution will be outlined. Students will learn machine
+    language and learn to write and run simple assembly language programs. Operating
+    system functions and the organization of file systems will be studied.\"\
+",
+
+  "outline"	: "\
+- **Weeks 1-7:**\
+  - TBD\
+- **Exam #1: ~ Tuesday March 9<sup>th</sup>**\
+- **Weeks 8-15:**\
+  - TBD\
+- **Final Exam:**\
+  - Thursday May 6<sup>th</sup> @ 3pm\
+",
+
+  "learningOutcomes" : "\
+- Most important prerequisite skills/knowledge:\
+  - ...\
+- Most important skills/knowledge gained:\
+  - ...\
+",
+
+  "normalContent" : "",
+
+  "gradingSchema": "\
+The students of this course have the following responsibilities: read assigned readings\
+before lecture, attend lecture, complete homework assignments, take in class quizzes, \
+take exams, and possibly complete a project. The final grade consists of:\
+\
+- **Quizzes: 10% total.** There should be a quiz approximately once per week. For blackboard\
+  quizzes you will be allowed to use your notes for the quiz, any other type of quiz, use\
+  of notes or Internet or crib sheets will be decided on a case-by-case basis.\
+- **Homework: 25% total.** There will be a homework assignment most weeks. The total of all\
+  homework assignments is worth 25% of the final grade. If you turn in the assignment late,\
+  I may grade it at 80%. Homework turned in after I've discussed the assignment in class\
+  WILL NOT BE ACCEPTED. NOTE: you may ask me to look over an assignment before it is due\
+  and I may help by pointing out mistakes that need correction and provide other feedback.\
+- **Exams: 50% total.** We will have two exams. A mid-term worth ~100 points, and a final\
+  exam worth ~150 points.\
+- **Class Attendance/Participation: 15% total.** Attendance will be taken at the beginning\
+  of each class.",
+
+}
